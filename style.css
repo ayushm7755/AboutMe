@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top left, #3ed8ff,#a8f5ff);
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    width: 600px;
+    margin: 30px;
+    padding: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.google-logo{
+   width: 500px;
+   height: 120px;
+   margin: 13px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   border-radius: 15px ;
+   border: 2px solid whitesmoke;
+   background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.google-logo img{   
+   width: 200px;
+   /* justify-content: center; */
+}
+.search-bar{
+   width: 500px;
+   height: 45px;
+   margin: 13px;
+   border:2px solid whitesmoke ;
+   border-radius: 12px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   margin-left: 13px;
+   background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+input{
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    width: 450px;
+    height: 20px;
+}
+.option-bar{
+   width: 500px;
+   height: 45px;
+   margin: 13px 13px 13px 0px;
+   border:2px solid whitesmoke ;
+   border-radius: 12px;
+   display: flex;
+   padding: 8px;
+   justify-content: start;
+   align-items: center;
+   margin-left: 13px;
+   gap: 100px;
+   background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+a{
+    color: initial;
+    text-decoration: none;
+}
+
+.about-sections{
+   width: 500px;
+   height: 480px;
+   margin: 13px 13px 13px 13px;
+   border:2px solid whitesmoke ;
+   border-radius: 12px;
+   /* display: flex; */
+   /* padding: 15px; */
+   /* justify-content: start; */
+   align-items: start;
+   margin-left: 13px;
+   gap: 100px;
+   background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.text{
+    padding: 8px;
+    margin: 5px;
+    width: 300px
+}
+h1{
+    font-size: 26px;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    /* width: 450px; */
+    height: 200px;
+    cursor: pointer;
+    gap: 12px;
+    padding: 15px;
+    justify-content: space-between;
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+
+#mypic{
+    width: 150px;
+    border-radius: 10px;
+}
+.biography{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+}
+.biography h2{
+    margin: 13px;
+
+}
+p{
+    margin: 13px;
+}
+.join-section{
+   width: 500px;
+   height: 110px;
+   /* display: flex; */
+   border:2px solid whitesmoke ;
+   border-radius: 12px;
+   margin: 13px;   
+   background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.join-section h3{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+#logo{
+    width: 48px;
+    height: 50px;
+}
+#insta-logo{
+    width: 48px;
+    height: 50px;
+}
+.row-join {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 170px; */
+}
+
+
+
+
